@@ -1,4 +1,3 @@
-````markdown
 # 🌐 North Slayer VPN
 
 [![React](https://img.shields.io/badge/React-18+-blue?logo=react)](https://reactjs.org/)
@@ -6,43 +5,48 @@
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3+-blue?logo=tailwind-css)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-7+-pink?logo=framer)](https://www.framer.com/motion/)
 
-A modern, smooth, and interactive VPN application built with **React, TypeScript, TailwindCSS, and Framer Motion**. Features animated connection buttons, real-time VPN status, country selection, and premium plan management.  
+A modern, smooth, and interactive VPN application built with **React, TypeScript, TailwindCSS, and Framer Motion**. Features animated connection buttons, real-time VPN status, country selection, and premium plan management.
 
 ---
 
 ## 🚀 Features
 
 ### Main Page
-- Real-time VPN status with **color-coded indicators** (green, amber, orange)
-- Animated **start/stop button** with pulse, rotation, and gradient animations
-- Live **connection timer** (starts on connect, resets on disconnect)
-- Dynamic speed indicators
-- Smooth transitions between all states
+
+* Real-time VPN status with **color-coded indicators** (green, amber, orange)
+* Animated **start/stop button** with pulse, rotation, and gradient animations
+* Live **connection timer** (starts on connect, resets on disconnect)
+* Dynamic speed indicators
+* Smooth transitions between all states
 
 ### Premium Page
-- Animated feature cards highlighting premium benefits
-- Pricing plans with popular plan highlighting
-- Smooth page transitions and staggered animations
-- Call-to-action for premium trial
+
+* Animated feature cards highlighting premium benefits
+* Pricing plans with popular plan highlighting
+* Smooth page transitions and staggered animations
+* Call-to-action for premium trial
 
 ### Country Selection
-- Searchable list with real-time filtering
-- Flag emoji display for countries
-- Ping time and signal strength indicators
-- Free vs Premium server distinction
-- Functional country selection with visual feedback
+
+* Searchable list with real-time filtering
+* Flag emoji display for countries
+* Ping time and signal strength indicators
+* Free vs Premium server distinction
+* Functional country selection with visual feedback
 
 ### Animations & Interactions
-- Smooth connection and page transition animations
-- Tap, hover, and loading feedback
-- Gradient backgrounds and pulse effects for main buttons
+
+* Smooth connection and page transition animations
+* Tap, hover, and loading feedback
+* Gradient backgrounds and pulse effects for main buttons
 
 ### Technical
-- React Router for multi-page navigation
-- Framer Motion for animations
-- Custom VPN hook for state management
-- TypeScript interfaces for type safety
-- Fully responsive design
+
+* React Router for multi-page navigation
+* Framer Motion for animations
+* Custom VPN hook for state management
+* TypeScript interfaces for type safety
+* Fully responsive design
 
 ---
 
@@ -53,7 +57,7 @@ A modern, smooth, and interactive VPN application built with **React, TypeScript
 ```bash
 git clone https://github.com/yourusername/north-slayer-vpn.git
 cd north-slayer-vpn
-````
+```
 
 2. Install dependencies:
 
@@ -102,7 +106,7 @@ src/
  ├─ assets/              # Images, gifs, icons
  ├─ components/          # Reusable components
  ├─ App.tsx              # Root component & routes
- └─ tailwind.css          # Tailwind CSS styles
+ └─ tailwind.css         # Tailwind CSS styles
 ```
 
 ---
@@ -149,6 +153,3 @@ This project is **MIT licensed**. See `LICENSE` file for details.
 * Animated icons and GIFs inspired by modern VPN apps
 * Flag emojis for country selection
 * Framer Motion for smooth animations
-
-```
-
