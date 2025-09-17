@@ -1,59 +1,154 @@
-VPN
-Secure Your Digital World Effortlessly and Instantly
+````markdown
+# 🌐 North Slayer VPN
 
-last-commit repo-top-language repo-language-count
-Built with the tools and technologies:
+[![React](https://img.shields.io/badge/React-18+-blue?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3+-blue?logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-7+-pink?logo=framer)](https://www.framer.com/motion/)
 
-JSON Markdown npm esbuild JavaScript React TypeScript Vite
+A modern, smooth, and interactive VPN application built with **React, TypeScript, TailwindCSS, and Framer Motion**. Features animated connection buttons, real-time VPN status, country selection, and premium plan management.  
 
-Table of Contents
-Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-Overview
-vpn is a modern, React-based VPN application designed to deliver a seamless and secure user experience. Built with Vite, Tailwind CSS, and Framer Motion, it offers a fast, scalable, and visually cohesive frontend architecture. The project emphasizes modularity, with reusable UI components and a clear separation of concerns, making it easy to customize and extend.
+---
 
-Why vpn?
+## 🚀 Features
 
-This project empowers developers to build secure, user-friendly VPN interfaces with a focus on performance and maintainability. The core features include:
+### Main Page
+- Real-time VPN status with **color-coded indicators** (green, amber, orange)
+- Animated **start/stop button** with pulse, rotation, and gradient animations
+- Live **connection timer** (starts on connect, resets on disconnect)
+- Dynamic speed indicators
+- Smooth transitions between all states
 
-🎨 Fast Development Environment: Utilizes Vite and React for rapid iteration and hot module replacement.
-🔧 Reusable UI Components: Includes customizable buttons, cards, and separators for consistent styling.
-🌐 VPN Connection Management: Provides hooks to control VPN states, select locations, and monitor connection duration.
-🖌️ Responsive & Animated UI: Integrates Tailwind CSS and Framer Motion for a polished, engaging user interface.
-📁 Robust Configuration: TypeScript configs ensure reliable builds and type safety across the project.
-Getting Started
-Prerequisites
-This project requires the following dependencies:
+### Premium Page
+- Animated feature cards highlighting premium benefits
+- Pricing plans with popular plan highlighting
+- Smooth page transitions and staggered animations
+- Call-to-action for premium trial
 
-Programming Language: TypeScript
-Package Manager: Npm
-Installation
-Build vpn from the source and install dependencies:
+### Country Selection
+- Searchable list with real-time filtering
+- Flag emoji display for countries
+- Ping time and signal strength indicators
+- Free vs Premium server distinction
+- Functional country selection with visual feedback
 
-Clone the repository:
+### Animations & Interactions
+- Smooth connection and page transition animations
+- Tap, hover, and loading feedback
+- Gradient backgrounds and pulse effects for main buttons
 
-❯ git clone https://github.com/deman404/vpn
-Navigate to the project directory:
+### Technical
+- React Router for multi-page navigation
+- Framer Motion for animations
+- Custom VPN hook for state management
+- TypeScript interfaces for type safety
+- Fully responsive design
 
-❯ cd vpn
-Install the dependencies:
+---
 
-Using npm:
+## 💻 Installation
 
-❯ npm install
-Usage
-Run the project with:
+1. Clone the repository:
 
-Using npm:
+```bash
+git clone https://github.com/yourusername/north-slayer-vpn.git
+cd north-slayer-vpn
+````
 
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+
+```bash
 npm start
-Testing
-Vpn uses the {test_framework} test framework. Run the test suite with:
+# or
+yarn start
+```
 
-Using npm:
+4. Open in browser at:
 
-npm test
+```
+http://localhost:3000
+```
+
+---
+
+## ⚡ Usage
+
+* Click the **Start** button on the main page to connect the VPN.
+* Monitor **connection status**, speed, and timer in real-time.
+* Click the **country selector** to switch to a free server.
+* Access **premium features** via the Premium page.
+* Enjoy smooth **animations and transitions** throughout the app.
+
+---
+
+## 🛠 Project Structure
+
+```
+src/
+ ├─ hooks/
+ │   └─ useVPN.ts        # VPN state management
+ ├─ screens/
+ │   ├─ MainDefault/     # Main VPN interface
+ │   ├─ CountrySelector/ # Country selection page
+ │   └─ Premium/         # Premium subscription page
+ ├─ assets/              # Images, gifs, icons
+ ├─ components/          # Reusable components
+ ├─ App.tsx              # Root component & routes
+ └─ tailwind.css          # Tailwind CSS styles
+```
+
+---
+
+## 🔧 Customization
+
+* **Add/Remove Countries:** Update the `countries` array in `useVPN.ts`
+* **Premium Plans:** Modify the Premium page pricing and features
+* **Animations:** Adjust Framer Motion settings in button and page components
+* **Start/Stop Button GIF:** Replace the current GIF in `assets/` and update the import path
+
+---
+
+## 📦 Dependencies
+
+* React 18+
+* TypeScript
+* TailwindCSS
+* Framer Motion
+* React Router DOM
+
+---
+
+## 🧩 Contribution
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is **MIT licensed**. See `LICENSE` file for details.
+
+---
+
+## 🌟 Acknowledgements
+
+* Animated icons and GIFs inspired by modern VPN apps
+* Flag emojis for country selection
+* Framer Motion for smooth animations
+
+```
+
